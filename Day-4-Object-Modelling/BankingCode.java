@@ -108,16 +108,19 @@ public class BankingCode{
         Bank bank2 = new Bank("Ujjwal bank of india");
         Bank bank3 = new Bank("Gupta ji bank of india");
 		
-		// Customers
+		
 		Customer customer1 = new Customer("Sandhya", "C123");
         Customer customer2 = new Customer("Devi", "C124");
         Customer customer3 = new Customer("Ram", "C125");
+		Customer customer4 = new Customer("Shyam", "C126");
    
 
         // accounts
         BankAccount account1 = bank1.openAccount(customer1);
         BankAccount account2 = bank2.openAccount(customer2);
         BankAccount account3 = bank3.openAccount(customer3);
+		BankAccount account4 = bank1.openAccount(customer1);
+
       
 
         // money deposit

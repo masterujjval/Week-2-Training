@@ -1,4 +1,4 @@
-import java.util.*;
+  import java.util.*;
 
 // driver class and driver method
 
@@ -21,9 +21,9 @@ c.showDetails();
 
 }
 
-public class Company{
+ class Company{
 private String name;
-private ArrayList<Department> dept=new ArrayList<Department>(); // storing department objects
+private ArrayList<Department> dept; // storing department objects
 
 Company(String name){
 this.name=name;
@@ -51,7 +51,7 @@ d.addEmp(eName);
 
 // calling display method in department
 
-public void showDetails(){
+ void showDetails(){
 System.out.println("Company: "+name);
 for(Department d:dept){
 
@@ -64,7 +64,7 @@ d.show();
 
 // creating Department class
 
-public class Department{
+ class Department{
 private ArrayList <Employee> emp=new ArrayList<Employee>(); // storing employee objects
 
 public String name; // department name
@@ -93,7 +93,7 @@ System.out.println("Employee: "+s.getName());
 
 // crearting employee class
 
-public class Employee{
+ class Employee{
 
 private String name;
 
